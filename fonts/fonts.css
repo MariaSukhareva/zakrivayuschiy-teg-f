@@ -10,7 +10,7 @@
 }
 
 @font-face {
-  font-family: Inter-Variable;
+  font-family: Inter;
   src:
     local('Inter-Variable'),
     url(../fonts/Inter-Variable.woff2) format('woff2 supports variations'),

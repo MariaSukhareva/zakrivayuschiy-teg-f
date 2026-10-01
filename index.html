@@ -15,8 +15,8 @@
   </head>
   <body class="page">
     <header class="header content-inline-size">
-      <h1>&lt;/HTML&gt;</h1>
-      <h2>закрывающий тег</h2>
+      <a class="logo" href="#0">&lt;/HTML&gt;</a>
+      <h1>закрывающий тег</h1>
     </header>
     <main class="content content-inline-size">
       <article class="card">
@@ -503,12 +503,14 @@
           <use href="svg/icons.svg#floppy"></use>
         </svg>
         <span class="button__text">Вставьте дискету, чтобы продолжить</span>
-        <button
-          class="button close-button"
-          onclick="window['save-dialog'].close()"
-        >
-          <span class="button__text">ok</span>
-        </button>
+        <form method="dialog">
+          <button
+            class="button close-button"
+            onclick="window['save-dialog'].close()"
+          >
+            <span class="button__text">ok</span>
+          </button>
+        </form>
       </dialog>
     </footer>
     <script src="./scripts/like.js"></script>
